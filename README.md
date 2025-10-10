@@ -26,7 +26,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :information_source: Como usar
 
-Para clonar e executar este aplicativo, você precisará [Git](https://git-scm.com), [Node.js v12.18](https://nodejs.org/) ou superior + [Yarn v1.22.4](https://yarnpkg.com) ou superior instalado em seu computador. Na sua linha de comando:
+Para clonar e executar este aplicativo, você precisará [Git](https://git-scm.com), [Node.js v20.19.5](https://nodejs.org/) ou superior + [Yarn v1.22.4](https://yarnpkg.com) ou superior instalado em seu computador. Na sua linha de comando:
 
 ```bash
 # Crie um diretório
