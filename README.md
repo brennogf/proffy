@@ -20,7 +20,7 @@
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
--  [Node.js](https://nodejs.org/)
+-  [NodeJS](https://nodejs.org/)
 -  [ReactJS](https://reactjs.org/)
 -  [TypeScript](https://www.typescriptlang.org/)
 
