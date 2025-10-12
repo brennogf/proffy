@@ -21,7 +21,7 @@
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
 -  [NodeJS](https://nodejs.org/)
--  [ReactJS](https://reactjs.org/)
+-  [React](https://reactjs.org/)
 -  [TypeScript](https://www.typescriptlang.org/)
 
 ## :information_source: Como usar
