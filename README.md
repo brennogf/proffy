@@ -13,8 +13,8 @@
 
 ## :link: Links
 
+-  [Demonstração](https://proffy-i419.onrender.com)
 -  [Video](https://drive.google.com/file/d/1B5plhd-a02FPMTWXaHI7Hi2Z0e2sccuS/preview)
--  [Demo](https://proffy-i419.onrender.com)
 
 ## :rocket: Tecnologias
 
