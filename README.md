@@ -20,8 +20,8 @@
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
--  [NodeJS](https://nodejs.org/)
--  [React](https://reactjs.org/)
+-  [Node.js](https://nodejs.org/)
+-  [ReactJS](https://reactjs.org/)
 -  [TypeScript](https://www.typescriptlang.org/)
 
 ## :information_source: Como usar
