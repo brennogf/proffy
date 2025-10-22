@@ -26,7 +26,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :information_source: Como usar
 
-Para clonar e executar este aplicativo, você precisará [Git](https://git-scm.com), [Node.js v20.19.5](https://nodejs.org/) ou superior + [Yarn v1.22.4](https://yarnpkg.com) ou superior instalado em seu computador. Na sua linha de comando:
+Para clonar e executar este aplicativo, você precisará [Git](https://git-scm.com), [npm](https://www.npmjs.com), [Docker](https://www.docker.com), e [Node.js v20.19.5](https://nodejs.org/) ou superior instalado em seu computador. Na sua linha de comando:
 
 ```bash
 # Clone este repositório
@@ -36,21 +36,21 @@ $ git clone https://github.com/brennogf/proffy
 # Crie um .env dentro da pasta "api" e cole:
 DATABASE_URL=postgresql://postgres:postgres@localhost:5432/postgres?schema=proffy
 
-# Inicie o Docker (lembrando que precisa ter o Docker instalado no seu PC)
+# Inicie o Docker
 $ cd sistolda
 $ docker-compose up
 
 # Em outro terminal, entre no repositório e instale as dependências
 $ cd proffy/frontend
-$ yarn
+$ npm install
 $ cd ../api
-$ yarn
+$ npm install
 
 # Rode as migrations
-$ yarn migrate
+$ npm run migrate
 
 # Execute o aplicativo
-$ yarn server
+$ npm run server
 ```
 
 ## :memo: Licença
