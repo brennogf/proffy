@@ -13,7 +13,7 @@
     "server": "ts-node-dev -r tsconfig-paths/register --respawn --transpileOnly --ignore-watch node_modules --no-notify src/server.ts",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"cd ../frontend && npm run start\"",
     "migrate": "prisma migrate dev",
-    "deploy": "npm install --frozen-lockfile && npx prisma generate && npx prisma migrate deploy && npx babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored && cd ../frontend && npm install --frozen-lockfile && NODE_OPTIONS=--openssl-legacy-provider npx react-app-rewired build"
+    "deploy": "npm install --frozen-lockfile --legacy-peer-deps && npx prisma generate && npx prisma migrate deploy && npx babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored && cd ../frontend && npm install --frozen-lockfile --legacy-peer-deps && NODE_OPTIONS=--openssl-legacy-provider npx react-app-rewired build"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.1",
