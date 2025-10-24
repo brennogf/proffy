@@ -13,16 +13,16 @@
 
 ## :link: Links
 
--  [Demonstração](https://proffy-i419.onrender.com)
--  [Video](https://drive.google.com/file/d/1B5plhd-a02FPMTWXaHI7Hi2Z0e2sccuS/preview)
+- [Demonstração](https://proffy-i419.onrender.com)
+- [Video](https://drive.google.com/file/d/1B5plhd-a02FPMTWXaHI7Hi2Z0e2sccuS/preview)
 
 ## :rocket: Tecnologias
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
--  [NodeJS](https://nodejs.org/)
--  [ReactJS](https://reactjs.org/)
--  [TypeScript](https://www.typescriptlang.org/)
+- [NodeJS](https://nodejs.org/)
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 ## :information_source: Como usar
 
@@ -42,18 +42,19 @@ $ docker-compose up
 
 # Em outro terminal, entre no repositório e instale as dependências
 $ cd proffy/frontend
-$ npm install
-$ cd ../api
-$ npm install
+$ npm install --frozen-lockfile --legacy-peer-deps
+$ cd ../backend
+$ npm install --frozen-lockfile --legacy-peer-deps
 
 # Rode as migrations
 $ npm run migrate
 
 # Execute o aplicativo
-$ npm run server
+$ npm run dev
 ```
 
 ## :memo: Licença
+
 Este projeto está sob licença do MIT. Veja o [LICENSE](https://github.com/brennogf/proffy/blob/master/LICENSE) para mais informações.
 
 ---
