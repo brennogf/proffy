@@ -33,7 +33,7 @@ Para clonar e executar este aplicativo, você precisará [Git](https://git-scm.c
 $ git clone https://github.com/brennogf/proffy
 
 # Prepare o banco de dados:
-# Crie um .env dentro da pasta "api" e cole:
+# Crie um .env dentro da pasta "backend" e cole:
 DATABASE_URL=postgresql://postgres:postgres@localhost:5432/postgres?schema=proffy
 
 # Inicie o Docker
