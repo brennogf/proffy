@@ -38,10 +38,10 @@ DATABASE_URL=postgresql://postgres:postgres@localhost:5432/postgres?schema=proff
 
 # Inicie o Docker
 $ cd sistolda
-$ docker-compose up
+$ docker-compose up -d
 
-# Em outro terminal, entre no repositório e instale as dependências
-$ cd proffy/frontend
+# Instale as dependências
+$ cd frontend
 $ npm install --frozen-lockfile --legacy-peer-deps
 $ cd ../backend
 $ npm install --frozen-lockfile --legacy-peer-deps
