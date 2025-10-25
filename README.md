@@ -37,7 +37,7 @@ $ git clone https://github.com/brennogf/proffy
 DATABASE_URL=postgresql://postgres:postgres@localhost:5432/postgres?schema=proffy
 
 # Inicie o Docker
-$ cd sistolda
+$ cd proffy
 $ docker-compose up -d
 
 # Instale as dependências
